@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    padding: 10rem;
+    
+    .buscador{
+        background-color: white;
+        padding: 1.5rem;
+        border-radius: 10px;
+        outline: none;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+}
+
+.texto{
+    margin-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-align: center;
+}
+
+body{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.texto_parrafo{
+    background-color: rgb(56, 94, 135);
+    border-radius: 10px;
+    padding: 10px;
+}
